@@ -1,0 +1,37 @@
+<html>
+<head><link href="swag.css" type="text/css" rel="stylesheet"/></head>
+<body>
+
+<h1>
+<span class="text_1">Pickup or Delivery?</span>
+
+</h1><br>
+<a href="" style="text-decoration:none" class="item3 Green">Pickup</a><br>
+<a href="" style="text-decoration:none" class="item2 A">Delivery<br></a><br>
+<br><p>Green if available, grey if not.</p>
+<script src="https://camwiegert.github.io/baffle/dist/baffle.min.js"></script>
+<script>
+var b1 = baffle('.item1').start();
+var b2 = baffle('.item2').start();
+var b3 = baffle('.item3').start();
+var b4 = baffle('.item4').start();
+var b5 = baffle('.item5').start();
+var b6 = baffle('.item6').start();
+setTimeout(function(){
+    b1.reveal();
+}, 120);
+setTimeout(function(){
+    b2.reveal();//do what you need here
+}, 130);
+setTimeout(function(){
+    b3.reveal();//do what you need here
+}, 140);
+setTimeout(function(){
+    b4.reveal();//do what you need here
+}, 150);setTimeout(function(){
+    b5.reveal();//do what you need here
+}, 160);setTimeout(function(){
+    b6.reveal();//do what you need here
+}, 170);
+</script>
+</body></html>
