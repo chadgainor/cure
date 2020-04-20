@@ -1,16 +1,81 @@
 <html>
-<head><link href="swag.css" type="text/css" rel="stylesheet"/></head>
+<head>
+    <meta http-equiv="refresh" content="5;index.html"/>
+<link href="swag.css" type="text/css" rel="stylesheet"/>
+<style type="text/css">
+					body{
+				font-family: 'SEGOEUIL';
+							}
+        body {
+    background-color: black;
+}
+        <!--
+.item{
+font-size : 30px;
+  
+    color: #ffffff;
+    
+}
+    .itemf2{
+font-size : 30px;
+    
+    color: #999;
+    
+}
+    .itemf3{
+font-size : 60px;
+
+    color: #99F768;
+    
+}
+    .itemf4{
+font-size : 30px;
+
+    color: #707070;
+    
+}
+ .itemf5{
+font-size : 30px;
+
+    color: #ffa500;
+    
+}
+     .itemf6{
+font-size : 30px;
+
+    color: #ff0000;
+    
+}
+    
+.container {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+-->
+</style>
+
+<title>HB Index</title>
+
+</head>
+
 <body>
+    
+<div class="container">
 
-<h1>
-<span class="text_1">Select Resturant</span>
+    <div><a href="ernestos.html" style="text-decoration:none" class="item4 itemf3">Ernestos</a><a href="#" class="closed"> </a></div><br> <div ><a href ="Smalleys.html" style="text-decoration:none" class="item4 itemf3">Smalleys</a><a href="A.html" class="Open"> </a></div><br>
+        <div ><a href ="sandmans.html" style="text-decoration:none" class="item2 itemf3">Sandmans</a>
+        <a href="#" class="Open"></a></div>
+    <div ><a href ="medical.pdf" style="text-decoration:none" class="item6 item"></a><a href="#" class="Open"> </a></div><br>
+    
+ 
 
-</h1><br>
-<a href="food2.html" style="text-decoration:none" class="item2 Green">Smalleys<br></a><br>
-    <a href="" style="text-decoration:none" class="item3 A">Ernestos</a><br>
-<a href="" style="text-decoration:none" class="item3 A">Little Caesars</a><br>
-<a href="" style="text-decoration:none" class="item3 A">Ricky Js</a><br>
-<a href="" style="text-decoration:none" class="item3 A">Chester's Chicken</a><br><p>Green if open, grey if closed.</p>
+</div>
+    
 <script src="https://camwiegert.github.io/baffle/dist/baffle.min.js"></script>
 <script>
 var b1 = baffle('.item1').start();
@@ -36,4 +101,6 @@ setTimeout(function(){
     b6.reveal();//do what you need here
 }, 170);
 </script>
-</body></html>
+    
+</body>
+</html>
