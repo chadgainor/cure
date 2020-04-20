@@ -1,0 +1,105 @@
+<html>
+<head>
+<link href="swag.css" type="text/css" rel="stylesheet"/>
+<style type="text/css">
+					body{
+				font-family: 'SEGOEUIL';
+							}
+        body {
+    background-color: black;
+}
+        <!--
+.item{
+font-size : 30px;
+  
+    color: #ffffff;
+    
+}
+    .itemred{
+font-size : 60px;
+    
+    color: #FF0000;
+    
+}
+    .itemyel{
+font-size : 60px;
+
+    color: #FAFE00;
+    
+}
+    .itemgreen{
+font-size : 60px;
+
+    color: #00D900;
+    
+}
+ .itemorange{
+font-size : 60px;
+
+    color: #ffa500;
+    
+}
+     .itempink{
+font-size : 60px;
+
+    color: #FF00C0;
+    
+}
+    
+.container {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+-->
+</style>
+
+<title>HB Index</title>
+
+</head>
+
+<body>
+    test
+<div class="container">
+
+    <div><a href="food.html" style="text-decoration:none" class="item4 itemgreen">Food</a><a href="#" class="closed"> </a></div><br> <div ><a href ="services.html" style="text-decoration:none" class="item4 itemyel">Services</a><a href="A.html" class="Open"> </a></div><br>
+        <div ><a href ="Hospital.html" style="text-decoration:none" class="item2 itemred">Hospital</a>
+        <a href="#" class="Open"></a></div>
+    <div ><a href ="medical.pdf" style="text-decoration:none" class="item6 item"></a><a href="#" class="Open"> </a></div><br>
+   
+      <div ><a href ="City.html" style="text-decoration:none" class="item4 itemorange">City</a><a href="#" class="Open"> </a></div><br>
+<div ><a href ="City.html" style="text-decoration:none" class="item4 itempink">Churches</a><a href="#" class="Open"> </a></div><br>
+</div>
+    
+<script src="https://camwiegert.github.io/baffle/dist/baffle.min.js"></script>
+<script>
+var b1 = baffle('.item1').start();
+var b2 = baffle('.item2').start();
+var b3 = baffle('.item3').start();
+var b4 = baffle('.item4').start();
+var b5 = baffle('.item5').start();
+var b6 = baffle('.item6').start();
+setTimeout(function(){
+    b1.reveal();
+}, 120);
+setTimeout(function(){
+    b2.reveal();//do what you need here
+}, 130);
+setTimeout(function(){
+    b3.reveal();//do what you need here
+}, 140);
+setTimeout(function(){
+    b4.reveal();//do what you need here
+}, 150);setTimeout(function(){
+    b5.reveal();//do what you need here
+}, 160);setTimeout(function(){
+    b6.reveal();//do what you need here
+}, 170);
+</script>
+    
+</body>
+</html>
